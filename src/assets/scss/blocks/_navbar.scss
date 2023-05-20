@@ -1,0 +1,141 @@
+.navbar {
+    background: #7000FF;
+    border-radius: 19px;
+    width: 100%;
+    max-width: 240px;
+    height: 796px;
+    padding: 30px 0px 25px 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 50px;
+
+    &-item {
+        font-family: 'SF Pro Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: -0.01em;
+        color: #FFFFFF;
+        margin-bottom: 16px;
+        display: flex;
+        align-content: center;
+
+        &:hover {
+            opacity: .6;
+        }
+
+
+
+        &:nth-child(1) {
+            &::before {
+                content: "";
+                display: inline-block;
+                width: 24px;
+                height: 24px;
+                background-image: url("./assets/images/home.svg");
+                margin-right: 19px;
+            }
+        }
+
+        &:nth-child(2) {
+            &::before {
+                content: "";
+                display: inline-block;
+                width: 24px;
+                height: 24px;
+                background-image: url("./assets/images/category.svg");
+                margin-right: 19px;
+            }
+        }
+
+        &:nth-child(3) {
+            &::before {
+                content: "";
+                display: inline-block;
+                width: 24px;
+                height: 24px;
+                background-image: url("./assets/images/barcode.svg");
+                margin-right: 19px;
+            }
+        }
+
+        &:nth-child(4) {
+            &::before {
+                content: "";
+                display: inline-block;
+                width: 24px;
+                height: 24px;
+                background-image: url("./assets/images/barcode.svg");
+                margin-right: 19px;
+            }
+        }
+
+        &:nth-child(5) {
+            &::before {
+                content: "";
+                display: inline-block;
+                width: 24px;
+                height: 24px;
+                background-image: url("./assets/images/brand-amongus.svg");
+                margin-right: 19px;
+            }
+        }
+
+        &:nth-child(6) {
+            &::before {
+                content: "";
+                display: inline-block;
+                width: 24px;
+                height: 24px;
+                background-image: url("./assets/images/Iconsman.svg");
+                margin-right: 19px;
+            }
+        }
+
+        &:nth-child(7) {
+            &::before {
+                content: "";
+                display: inline-block;
+                width: 24px;
+                height: 24px;
+                background-image: url("./assets/images/phone.svg");
+                margin-right: 19px;
+            }
+        }
+
+
+    }
+
+    &-link {
+        color: #FFFFFF;
+
+
+    }
+
+    &-settings {
+
+        margin-top: auto;
+        display: flex;
+        align-content: center;
+
+        &::before {
+            content: "";
+            display: inline-block;
+            width: 24px;
+            height: 24px;
+            background-image: url("./assets/images/settings.svg");
+            margin-right: 19px;
+        }
+    }
+}
+
+.active {
+    font-family: 'Times';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 25px;
+    letter-spacing: -0.01em;
+}

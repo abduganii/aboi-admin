@@ -1,0 +1,441 @@
+.list-itemtop {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: 17px;
+  padding-bottom: 13px;
+  padding-left: 13px;
+  margin-right: 20px;
+}
+
+.list-itemtop-text {
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000000;
+  opacity: 0.5;
+  width: 100%;
+}
+
+.list-itemtop-text:nth-child(2) {
+  max-width: 53px;
+  margin-left: 8px;
+  text-align: center;
+}
+
+.list-itemtop-text:nth-child(3) {
+  max-width: 61px;
+  margin-left: 27px;
+  text-align: center;
+}
+
+.list-itemtop-text:nth-child(4) {
+  max-width: 251px;
+  margin-left: 16px;
+}
+
+.list-itemtop-text:nth-child(5) {
+  max-width: 378px;
+  margin-left: 11px;
+}
+
+.list-itemtop-text:nth-child(6) {
+  max-width: 59px;
+  margin-left: 4px;
+}
+
+.list-itemtop-text:nth-child(7) {
+  max-width: 22px;
+  margin-left: 38px;
+}
+
+.list-itemtop-text:nth-child(8) {
+  max-width: 53px;
+  margin-left: 40px;
+}
+
+.list-itemtop-text2 {
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000000;
+  opacity: 0.5;
+  width: 100%;
+}
+
+.list-itemtop-text2:nth-child(2) {
+  max-width: 46px;
+  margin-left: 8px;
+  text-align: center;
+}
+
+.list-itemtop-text2:nth-child(3) {
+  max-width: 70px;
+  margin-left: 24px;
+}
+
+.list-itemtop-text2:nth-child(4) {
+  max-width: 150px;
+  margin-left: 20px;
+}
+
+.list-itemtop-text2:nth-child(5) {
+  max-width: 100px;
+  margin-left: 25px;
+}
+
+.list-itemtop-text2:nth-child(6) {
+  max-width: 320px;
+  margin-left: 27px;
+}
+
+.list-itemtop-text2:nth-child(7) {
+  max-width: 60px;
+  margin-left: 22px;
+}
+
+.list-itemtop-text2:nth-child(8) {
+  max-width: 15px;
+  margin-left: 39px;
+}
+
+.list-itemtop-text2:nth-child(9) {
+  max-width: 53px;
+  margin-left: 40px;
+  text-align: center;
+}
+
+.list-itemtop-text3 {
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000000;
+  opacity: 0.5;
+  width: 100%;
+}
+
+.list-itemtop-text3:nth-child(2) {
+  max-width: 46px;
+  margin-left: 8px;
+  text-align: center;
+}
+
+.list-itemtop-text3:nth-child(3) {
+  max-width: 70px;
+  margin-left: 24px;
+}
+
+.list-itemtop-text3:nth-child(4) {
+  max-width: 260px;
+  margin-left: 20px;
+}
+
+.list-itemtop-text3:nth-child(5) {
+  max-width: 299px;
+  margin-left: 24px;
+}
+
+.list-itemtop-text3:nth-child(6) {
+  max-width: 91px;
+  margin-left: 17px;
+}
+
+.list-itemtop-text3:nth-child(7) {
+  max-width: 12px;
+  margin-left: 46px;
+  opacity: .6;
+}
+
+.list-itemtop-text3:nth-child(8) {
+  max-width: 20px;
+  margin-left: 54px;
+}
+
+.list-item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background: #FFFFFF;
+  border-radius: 10px;
+  margin-bottom: 4px;
+  padding-left: 14px;
+  padding-right: 20px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  position: relative;
+}
+
+.list-item-drop {
+  display: none;
+  padding: 20px;
+  position: absolute;
+  background: #FFFFFF;
+  box-shadow: -10px 14px 44px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  top: 38px;
+  right: 14px;
+}
+
+.list-item-drop-text {
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000000;
+  margin-bottom: 13px;
+}
+
+.list-item-drop-text:last-child {
+  margin-bottom: 0;
+}
+
+.list-item-textimg {
+  margin-left: auto;
+  box-sizing: content-box;
+  padding: 0 8px;
+}
+
+.list-item-text {
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #000000;
+  width: 100%;
+}
+
+.list-item-text:nth-child(2) {
+  max-width: 53px;
+  margin-left: 8px;
+  text-align: center;
+  opacity: .9;
+}
+
+.list-item-text:nth-child(3) {
+  max-width: 61px;
+  margin-left: 27px;
+  text-align: center;
+}
+
+.list-item-text:nth-child(4) {
+  max-width: 251px;
+  margin-left: 16px;
+}
+
+.list-item-text:nth-child(5) {
+  max-width: 378px;
+  margin-left: 11px;
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000000;
+  opacity: 0.6;
+  padding-right: 10px;
+  max-height: 16px;
+  overflow: hidden;
+}
+
+.list-item-text:nth-child(6) {
+  max-width: 59px;
+  margin-left: 4px;
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  color: #000000;
+}
+
+.list-item-text:nth-child(7) {
+  max-width: 22px;
+  margin-left: 38px;
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  color: #000000;
+  opacity: 0.6;
+}
+
+.list-item-text:nth-child(8) {
+  max-width: 53px;
+  margin-left: 40px;
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  margin-right: 23px;
+  color: #AC8346;
+}
+
+.list-item-text2 {
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000000;
+  width: 100%;
+}
+
+.list-item-text2:nth-child(2) {
+  max-width: 46px;
+  margin-left: 8px;
+  text-align: center;
+}
+
+.list-item-text2:nth-child(3) {
+  max-width: 70px;
+  margin-left: 24px;
+}
+
+.list-item-text2:nth-child(4) {
+  max-width: 150px;
+  margin-left: 20px;
+}
+
+.list-item-text2:nth-child(5) {
+  max-width: 100px;
+  margin-left: 25px;
+}
+
+.list-item-text2:nth-child(6) {
+  max-width: 320px;
+  margin-left: 27px;
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000000;
+  opacity: 0.6;
+  overflow: hidden;
+}
+
+.list-item-text2:nth-child(7) {
+  max-width: 60px;
+  margin-left: 22px;
+}
+
+.list-item-text2:nth-child(8) {
+  max-width: 15px;
+  margin-left: 39px;
+}
+
+.list-item-text2:nth-child(9) {
+  max-width: 53px;
+  margin-left: 40px;
+  text-align: center;
+  text-align: center;
+  margin-right: 23px;
+  color: #AC8346;
+}
+
+.list-item-text3 {
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000000;
+  width: 100%;
+}
+
+.list-item-text3:nth-child(2) {
+  max-width: 46px;
+  margin-left: 8px;
+  text-align: center;
+}
+
+.list-item-text3:nth-child(3) {
+  max-width: 70px;
+  margin-left: 24px;
+}
+
+.list-item-text3:nth-child(4) {
+  max-width: 260px;
+  margin-left: 20px;
+  overflow: hidden;
+}
+
+.list-item-text3:nth-child(5) {
+  max-width: 299px;
+  margin-left: 24px;
+  overflow: hidden;
+  opacity: 0.6;
+}
+
+.list-item-text3:nth-child(6) {
+  max-width: 91px;
+  margin-left: 17px;
+}
+
+.list-item-text3:nth-child(7) {
+  max-width: 17px;
+  margin-left: 46px;
+  opacity: .6;
+}
+
+.list-item-text3:nth-child(8) {
+  max-width: 20px;
+  margin-left: 54px;
+  opacity: 0.6;
+}
+
+.list-item-update {
+  color: #AC8346;
+}
+
+.list-item-div {
+  padding: 15px 23px;
+  background: #EEEEEE;
+  border-radius: 7px;
+}
+
+.list-item-div2 {
+  position: relative;
+  height: 46px;
+}
+
+.list-item-div2 img {
+  width: 61px;
+  height: 46px;
+  position: absolute;
+  object-fit: contain;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.list-item-div2 img:nth-child(2) {
+  height: 42px;
+  top: 2px;
+  left: 5px;
+  z-index: 5;
+}
+
+.list-item-div2 img:nth-child(3) {
+  height: 38px;
+  top: 4px;
+  left: 10px;
+  z-index: 0;
+}
+
+.dropOpen {
+  display: inline-block;
+}

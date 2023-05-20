@@ -1,0 +1,150 @@
+.header {
+    background-color: #ffffff;
+    padding: 11px 0;
+
+    .container {
+        display: flex;
+        align-content: center;
+        justify-content: space-between;
+    }
+
+    &_user {
+        display: flex;
+        align-items: flex-start;
+
+        &-name {
+            font-family: 'Outfit';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 23px;
+            letter-spacing: -0.03em;
+            color: #000000;
+        }
+
+        &-who {
+            font-family: 'Outfit';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 18px;
+            letter-spacing: -0.03em;
+            color: #000000;
+            opacity: 0.5;
+
+        }
+
+        &-wrap {
+            margin-left: 12px;
+            display: flex;
+            align-items: flex-start;
+
+            &::after {
+                content: "";
+                display: inline-block;
+                width: 12px;
+                height: 6px;
+                margin-top: 8px;
+                margin-left: 12px;
+                background-image: url('./assets/images/Vectordown.svg');
+            }
+
+        }
+    }
+
+    &_left {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 50%;
+    }
+
+    &_right {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: 50%;
+    }
+
+    &-title {
+        font-family: 'Times';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 30px;
+        text-align: center;
+        letter-spacing: -0.03em;
+        color: #000000;
+        width: 100px;
+    }
+
+    &_icon {
+        display: flex;
+        align-items: center;
+        background: #FFFFFF;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        border-radius: 3px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-right: 8px;
+
+        img {
+            padding: 5px 0;
+            padding-left: 10px;
+            border-left: 1px solid rgba(0, 0, 0, 0.2);
+            margin-left: 10px;
+        }
+
+        &-line {
+            width: 10px;
+            height: 1px;
+            background-color: #000000;
+            position: relative;
+
+            &::before {
+                content: "";
+                display: inline-block;
+                width: 10px;
+                height: 1px;
+                background-color: #000000;
+                position: absolute;
+                top: -2px;
+
+            }
+
+            &::after {
+                content: "";
+                display: inline-block;
+                width: 10px;
+                height: 1px;
+                background-color: #000000;
+                position: absolute;
+                top: 2px;
+
+            }
+        }
+    }
+
+    &-img {
+
+        border-radius: 50%;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        width: 30px;
+        height: 30px;
+        margin-right: 8px;
+        background-image: url("./assets/images/Icons.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 15px;
+    }
+
+    &-input {
+        border: 1px solid rgba(204, 204, 204, 0.4);
+        border-radius: 9px;
+        background-image: url("./assets/images/Frame 48097796.svg");
+        background-repeat: no-repeat;
+        background-size: 21px;
+        background-position: top 5px right 10px;
+        padding: 7px 10px;
+    }
+}
