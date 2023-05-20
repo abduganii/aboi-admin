@@ -39,8 +39,8 @@ function App() {
     <>
       <GlobalContext.Provider value={{ page, setPage: hendleSetPage }}>
         <Routes>
+          <Route path={'/index'} element={<Home />} />
           <Route path='/' element={<Home />} >
-            <Route path={'/index'} element={<>hello</>} />
             <Route path={routes.CATEGORY} element={<CategoryList />} />
             <Route path={routes.ADDCATEGORY} element={<CategoryAdd />} />
             <Route path={routes.UPDATECATEGORY + '/:id'} element={<CategoryUpdate />} />
