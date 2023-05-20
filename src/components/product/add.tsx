@@ -61,12 +61,14 @@ export default function PruductAdd() {
 
     }
     const hendleimg = async (e: any) => {
+        setLoading(true)
         if (e.target.files[0]) {
             const formData = new FormData()
             formData.append("image", e.target.files[0])
             await UploadImg(formData)
                 .then((response) => {
                     setImg1((status: any) => [...status, response?.data?.url])
+                    setLoading(false)
                 })
                 .catch(error => {
                     setLoading(false)
