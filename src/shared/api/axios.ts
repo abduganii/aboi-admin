@@ -1,10 +1,8 @@
 import axios from "axios";
-// const BASE_URL = "https://api.bss-safety.uz"
 
 import { getCookie } from 'typescript-cookie'
 const instance = axios.create({
-    // baseURL: 'https://api.bss-safety.uz'
-    baseURL: 'http://localhost:9000'
+    baseURL: 'https://api-oboi.getter.uz'
 
 });
 instance.interceptors.request.use((config) => {
